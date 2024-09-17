@@ -19,8 +19,8 @@ def esexpls(url, data):
         return None
 
 def send_to_free_finder(name, id, members):
-  webhook = "webhook here"
-  data = {"content": "ping here"}
+  webhook = "https://discord.com/api/webhooks/1284462298366349408/AAPpWGy02B4scC5UoTwNvhcH_1IC27iQy87yBVjGfPdkD7ZZ0EvE-dUli6tk146BdBiI"
+  data = {"content": "@here"}
   data["embeds"] = [
     {
       "title": "New Group Found!",
@@ -39,8 +39,8 @@ def send_to_free_finder(name, id, members):
   return esexpls(webhook, data)
 
 def send_to_level_5(name, id, members, robux):
-  webhook = "webhook here "
-  data = {"content": "put ur ping here"}
+  webhook = "https://discord.com/api/webhooks/1284462298366349408/AAPpWGy02B4scC5UoTwNvhcH_1IC27iQy87yBVjGfPdkD7ZZ0EvE-dUli6tk146BdBiI"
+  data = {"content": "@everyone"}
   data["embeds"] = [
     {
       "title": "New Group Found!",
